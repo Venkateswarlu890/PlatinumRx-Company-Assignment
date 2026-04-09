@@ -108,7 +108,7 @@ INSERT INTO expenses VALUES
 -- ============================================================
 
 -- ------------------------------------------------------------
--- Q1: Total revenue by sales channel
+-- Q1: Find the revenue we got from each sales channel in a given year
 -- ------------------------------------------------------------
 SELECT
     sales_channel,
@@ -119,7 +119,7 @@ GROUP BY sales_channel
 ORDER BY total_revenue DESC;
 
 -- ------------------------------------------------------------
--- Q2: Monthly revenue trend
+-- Q2:Find top 10 the most valuable customers for a given year
 -- ------------------------------------------------------------
 SELECT
     TO_CHAR(sale_date, 'YYYY-MM')  AS month,
