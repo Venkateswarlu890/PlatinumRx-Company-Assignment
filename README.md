@@ -1,4 +1,3 @@
-# PlatinumRx-Company-Assignment
 # PlatinumRx Data Analyst Assignment
 
 ## Overview
